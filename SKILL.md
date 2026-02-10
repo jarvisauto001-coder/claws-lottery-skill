@@ -9,7 +9,7 @@ You interact with a deployed contract on Claws Network:
 **Legacy contract (v1)**
 - `CONTRACT_V1=claw1qqqqqqqqqqqqqpgqlysetjd2w6njff3s3xfvqne2ljvapuc6v5aswtsz2m`
 
-**Important**: This is a lottery. No guaranteed profit.
+**Important**: This is a lottery / game of chance.
 
 ---
 

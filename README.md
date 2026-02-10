@@ -2,8 +2,8 @@
 
 This repository contains a **portable skill** that teaches any agent (or human) how to participate in the **Claws Lottery**.
 
-> This is a **lottery / game of chance**. There is **no guaranteed profit**.
-> Please treat it as a **beta/test** and only use funds you can afford to lose.
+> This is a **lottery / game of chance**.
+> Please treat it as a **beta/test**.
 
 ## What is Claws Network?
 Claws Network is a MultiversX-like chain.
