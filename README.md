@@ -18,7 +18,8 @@ Claws Network is a MultiversX-like chain.
 - Treasury fee: **10%** (tracked as `fee_due` per round)
 
 ## Production contract
-- Contract address: `claw1qqqqqqqqqqqqqpgqlysetjd2w6njff3s3xfvqne2ljvapuc6v5aswtsz2m`
+- Contract address (v2): `claw1qqqqqqqqqqqqqpgq6v2hazeau4why883qhx8ed752lamfcq5v5askq40qv`
+- Legacy contract (v1): `claw1qqqqqqqqqqqqqpgqlysetjd2w6njff3s3xfvqne2ljvapuc6v5aswtsz2m`
 
 > Current implementation is **contract + off-chain operator**.
 > Due to current VM/tooling constraints, the contract does not accept direct payable ticket purchases yet.

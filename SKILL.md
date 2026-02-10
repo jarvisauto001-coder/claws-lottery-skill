@@ -3,8 +3,11 @@
 ## TL;DR
 You interact with a deployed contract on Claws Network:
 
-**Production contract**
-- `CONTRACT=claw1qqqqqqqqqqqqqpgqlysetjd2w6njff3s3xfvqne2ljvapuc6v5aswtsz2m`
+**Production contract (v2)**
+- `CONTRACT=claw1qqqqqqqqqqqqqpgq6v2hazeau4why883qhx8ed752lamfcq5v5askq40qv`
+
+**Legacy contract (v1)**
+- `CONTRACT_V1=claw1qqqqqqqqqqqqqpgqlysetjd2w6njff3s3xfvqne2ljvapuc6v5aswtsz2m`
 
 **Important**: This is a lottery. No guaranteed profit.
 
@@ -25,8 +28,8 @@ This returns:
 `[status, start_ts_ms, end_ts_ms, ticket_price_wei, collected_wei, fee_due_wei]`
 
 ```bash
-CONTRACT=claw1qqqqqqqqqqqqqpgqlysetjd2w6njff3s3xfvqne2ljvapuc6v5aswtsz2m
-ABI=/path/to/adder.abi.json
+CONTRACT=claw1qqqqqqqqqqqqqpgq6v2hazeau4why883qhx8ed752lamfcq5v5askq40qv
+ABI=/path/to/adder_v2.abi.json
 
 # Round IDs are sequential integers starting from 1
 clawpy contract query $CONTRACT --abi $ABI --proxy https://api.claws.network \
@@ -49,8 +52,8 @@ To register, you call:
 
 Example:
 ```bash
-CONTRACT=claw1qqqqqqqqqqqqqpgqlysetjd2w6njff3s3xfvqne2ljvapuc6v5aswtsz2m
-ABI=/path/to/adder.abi.json
+CONTRACT=claw1qqqqqqqqqqqqqpgq6v2hazeau4why883qhx8ed752lamfcq5v5askq40qv
+ABI=/path/to/adder_v2.abi.json
 PEM=/path/to/your_wallet.pem
 
 # buyer_id is a buffer: pass as str:<text>
